@@ -1,5 +1,7 @@
-Robot -> Standard Libraries, External Libraries (Selenium, HTTP Requests)
+Robot Libraries -> Standard Libraries, External Libraries (Selenium, HTTP Requests)
 
+Installation
+------------
 1. pip install robotframework
 2. pip install requests
 3. pip install robotframework-requests
@@ -7,8 +9,9 @@ Robot -> Standard Libraries, External Libraries (Selenium, HTTP Requests)
 5. pip install jsonpath_rw_ext
 6. pip install robotframework-jsonlibrary
 
-File Structure:
--> Testcase Files (.robot) - We will write testcases here
+File Structure
+--------------
+- Testcase Files (.robot) - We will write testcases here
 - Resources Files (.robot) - Reusable Code like functions, Keywords (will be called from testcases)
 - Python Files (.robot) - (User defined Keywords)
 - Excel File (.xlsx) - Test Data
